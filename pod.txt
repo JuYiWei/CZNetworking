@@ -1,0 +1,11 @@
+
+
+
+
+
+
+pod spec lint CZNetworking.podspec --use-libraries --allow-warnings --verbose
+pod trunk push CZNetworking.podspec --use-libraries --allow-warnings --verbose
+
+
+pod search CZNetworking --simple

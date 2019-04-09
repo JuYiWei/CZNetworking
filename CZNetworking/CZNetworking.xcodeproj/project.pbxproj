@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844244F2225C89CC00EB432E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244F1225C89CC00EB432E /* AppDelegate.m */; };
+		844244F5225C89CC00EB432E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244F4225C89CC00EB432E /* ViewController.m */; };
+		844244F8225C89CC00EB432E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844244F6225C89CC00EB432E /* Main.storyboard */; };
+		844244FA225C89CE00EB432E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844244F9225C89CE00EB432E /* Assets.xcassets */; };
+		844244FD225C89CE00EB432E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844244FB225C89CE00EB432E /* LaunchScreen.storyboard */; };
+		84424500225C89CE00EB432E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844244FF225C89CE00EB432E /* main.m */; };
+		8442450A225C89CE00EB432E /* CZNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424509225C89CE00EB432E /* CZNetworkingTests.m */; };
+		84424515225C89CE00EB432E /* CZNetworkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424514225C89CE00EB432E /* CZNetworkingUITests.m */; };
+		84424526225C93BA00EB432E /* CZHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 84424524225C93BA00EB432E /* CZHTTP.m */; };
+		9751B1BE4088D53C5B2D2A98 /* libPods-CZNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEDE6152060C03029B08287 /* libPods-CZNetworking.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84424506225C89CE00EB432E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844244E5225C89CC00EB432E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844244EC225C89CC00EB432E;
+			remoteInfo = CZNetworking;
+		};
+		84424511225C89CE00EB432E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844244E5225C89CC00EB432E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844244EC225C89CC00EB432E;
+			remoteInfo = CZNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC91937CECED3382CF001B6 /* Pods-CZNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZNetworking/Pods-CZNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		844244ED225C89CC00EB432E /* CZNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844244F0225C89CC00EB432E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844244F1225C89CC00EB432E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844244F3225C89CC00EB432E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844244F4225C89CC00EB432E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844244F7225C89CC00EB432E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844244F9225C89CE00EB432E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844244FC225C89CE00EB432E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844244FE225C89CE00EB432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844244FF225C89CE00EB432E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84424505225C89CE00EB432E /* CZNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84424509225C89CE00EB432E /* CZNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZNetworkingTests.m; sourceTree = "<group>"; };
+		8442450B225C89CE00EB432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84424510225C89CE00EB432E /* CZNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84424514225C89CE00EB432E /* CZNetworkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZNetworkingUITests.m; sourceTree = "<group>"; };
+		84424516225C89CE00EB432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84424524225C93BA00EB432E /* CZHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHTTP.m; sourceTree = "<group>"; };
+		84424525225C93BA00EB432E /* CZHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHTTP.h; sourceTree = "<group>"; };
+		CFEDE6152060C03029B08287 /* libPods-CZNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A26F7EC167F85491EE4F2A /* Pods-CZNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZNetworking/Pods-CZNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844244EA225C89CC00EB432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9751B1BE4088D53C5B2D2A98 /* libPods-CZNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424502225C89CE00EB432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8442450D225C89CE00EB432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6898578C6EDDD408DA3237F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7A26F7EC167F85491EE4F2A /* Pods-CZNetworking.debug.xcconfig */,
+				0AC91937CECED3382CF001B6 /* Pods-CZNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		844244E4225C89CC00EB432E = {
+			isa = PBXGroup;
+			children = (
+				844244EF225C89CC00EB432E /* CZNetworking */,
+				84424508225C89CE00EB432E /* CZNetworkingTests */,
+				84424513225C89CE00EB432E /* CZNetworkingUITests */,
+				844244EE225C89CC00EB432E /* Products */,
+				6898578C6EDDD408DA3237F1 /* Pods */,
+				9B55732C37DCA56EA6FCA8DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		844244EE225C89CC00EB432E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844244ED225C89CC00EB432E /* CZNetworking.app */,
+				84424505225C89CE00EB432E /* CZNetworkingTests.xctest */,
+				84424510225C89CE00EB432E /* CZNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844244EF225C89CC00EB432E /* CZNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				84424522225C8AC200EB432E /* Networking */,
+				844244F0225C89CC00EB432E /* AppDelegate.h */,
+				844244F1225C89CC00EB432E /* AppDelegate.m */,
+				844244F3225C89CC00EB432E /* ViewController.h */,
+				844244F4225C89CC00EB432E /* ViewController.m */,
+				844244F6225C89CC00EB432E /* Main.storyboard */,
+				844244F9225C89CE00EB432E /* Assets.xcassets */,
+				844244FB225C89CE00EB432E /* LaunchScreen.storyboard */,
+				844244FE225C89CE00EB432E /* Info.plist */,
+				844244FF225C89CE00EB432E /* main.m */,
+			);
+			path = CZNetworking;
+			sourceTree = "<group>";
+		};
+		84424508225C89CE00EB432E /* CZNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				84424509225C89CE00EB432E /* CZNetworkingTests.m */,
+				8442450B225C89CE00EB432E /* Info.plist */,
+			);
+			path = CZNetworkingTests;
+			sourceTree = "<group>";
+		};
+		84424513225C89CE00EB432E /* CZNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84424514225C89CE00EB432E /* CZNetworkingUITests.m */,
+				84424516225C89CE00EB432E /* Info.plist */,
+			);
+			path = CZNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		84424522225C8AC200EB432E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				84424525225C93BA00EB432E /* CZHTTP.h */,
+				84424524225C93BA00EB432E /* CZHTTP.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9B55732C37DCA56EA6FCA8DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFEDE6152060C03029B08287 /* libPods-CZNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844244EC225C89CC00EB432E /* CZNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84424519225C89CE00EB432E /* Build configuration list for PBXNativeTarget "CZNetworking" */;
+			buildPhases = (
+				BA13BEBD77D72D64AA5521D9 /* [CP] Check Pods Manifest.lock */,
+				844244E9225C89CC00EB432E /* Sources */,
+				844244EA225C89CC00EB432E /* Frameworks */,
+				844244EB225C89CC00EB432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZNetworking;
+			productName = CZNetworking;
+			productReference = 844244ED225C89CC00EB432E /* CZNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84424504225C89CE00EB432E /* CZNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8442451C225C89CE00EB432E /* Build configuration list for PBXNativeTarget "CZNetworkingTests" */;
+			buildPhases = (
+				84424501225C89CE00EB432E /* Sources */,
+				84424502225C89CE00EB432E /* Frameworks */,
+				84424503225C89CE00EB432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84424507225C89CE00EB432E /* PBXTargetDependency */,
+			);
+			name = CZNetworkingTests;
+			productName = CZNetworkingTests;
+			productReference = 84424505225C89CE00EB432E /* CZNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8442450F225C89CE00EB432E /* CZNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8442451F225C89CE00EB432E /* Build configuration list for PBXNativeTarget "CZNetworkingUITests" */;
+			buildPhases = (
+				8442450C225C89CE00EB432E /* Sources */,
+				8442450D225C89CE00EB432E /* Frameworks */,
+				8442450E225C89CE00EB432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84424512225C89CE00EB432E /* PBXTargetDependency */,
+			);
+			name = CZNetworkingUITests;
+			productName = CZNetworkingUITests;
+			productReference = 84424510225C89CE00EB432E /* CZNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844244E5225C89CC00EB432E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "居祎炜";
+				TargetAttributes = {
+					844244EC225C89CC00EB432E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84424504225C89CE00EB432E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 844244EC225C89CC00EB432E;
+					};
+					8442450F225C89CE00EB432E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 844244EC225C89CC00EB432E;
+					};
+				};
+			};
+			buildConfigurationList = 844244E8225C89CC00EB432E /* Build configuration list for PBXProject "CZNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844244E4225C89CC00EB432E;
+			productRefGroup = 844244EE225C89CC00EB432E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844244EC225C89CC00EB432E /* CZNetworking */,
+				84424504225C89CE00EB432E /* CZNetworkingTests */,
+				8442450F225C89CE00EB432E /* CZNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844244EB225C89CC00EB432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844244FD225C89CE00EB432E /* LaunchScreen.storyboard in Resources */,
+				844244FA225C89CE00EB432E /* Assets.xcassets in Resources */,
+				844244F8225C89CC00EB432E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424503225C89CE00EB432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8442450E225C89CE00EB432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA13BEBD77D72D64AA5521D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CZNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844244E9225C89CC00EB432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84424526225C93BA00EB432E /* CZHTTP.m in Sources */,
+				844244F5225C89CC00EB432E /* ViewController.m in Sources */,
+				84424500225C89CE00EB432E /* main.m in Sources */,
+				844244F2225C89CC00EB432E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84424501225C89CE00EB432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442450A225C89CE00EB432E /* CZNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8442450C225C89CE00EB432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84424515225C89CE00EB432E /* CZNetworkingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84424507225C89CE00EB432E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844244EC225C89CC00EB432E /* CZNetworking */;
+			targetProxy = 84424506225C89CE00EB432E /* PBXContainerItemProxy */;
+		};
+		84424512225C89CE00EB432E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844244EC225C89CC00EB432E /* CZNetworking */;
+			targetProxy = 84424511225C89CE00EB432E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844244F6225C89CC00EB432E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844244F7225C89CC00EB432E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844244FB225C89CE00EB432E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844244FC225C89CE00EB432E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84424517225C89CE00EB432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84424518225C89CE00EB432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8442451A225C89CE00EB432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A26F7EC167F85491EE4F2A /* Pods-CZNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZUL3JZQ3E;
+				INFOPLIST_FILE = CZNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyiwei.CZNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8442451B225C89CE00EB432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC91937CECED3382CF001B6 /* Pods-CZNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZUL3JZQ3E;
+				INFOPLIST_FILE = CZNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyiwei.CZNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8442451D225C89CE00EB432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZUL3JZQ3E;
+				INFOPLIST_FILE = CZNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyiwei.CZNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZNetworking.app/CZNetworking";
+			};
+			name = Debug;
+		};
+		8442451E225C89CE00EB432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZUL3JZQ3E;
+				INFOPLIST_FILE = CZNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyiwei.CZNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZNetworking.app/CZNetworking";
+			};
+			name = Release;
+		};
+		84424520225C89CE00EB432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZUL3JZQ3E;
+				INFOPLIST_FILE = CZNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyiwei.CZNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CZNetworking;
+			};
+			name = Debug;
+		};
+		84424521225C89CE00EB432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZUL3JZQ3E;
+				INFOPLIST_FILE = CZNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juyiwei.CZNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CZNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844244E8225C89CC00EB432E /* Build configuration list for PBXProject "CZNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84424517225C89CE00EB432E /* Debug */,
+				84424518225C89CE00EB432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84424519225C89CE00EB432E /* Build configuration list for PBXNativeTarget "CZNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8442451A225C89CE00EB432E /* Debug */,
+				8442451B225C89CE00EB432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8442451C225C89CE00EB432E /* Build configuration list for PBXNativeTarget "CZNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8442451D225C89CE00EB432E /* Debug */,
+				8442451E225C89CE00EB432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8442451F225C89CE00EB432E /* Build configuration list for PBXNativeTarget "CZNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84424520225C89CE00EB432E /* Debug */,
+				84424521225C89CE00EB432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844244E5225C89CC00EB432E /* Project object */;
+}
